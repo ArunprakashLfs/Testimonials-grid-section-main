@@ -19,8 +19,9 @@ body{
     font-family: 'Barlow Semi Condensed', sans-serif;
     display: flex;
     align-items: center;
-}
-.main{
+    padding: 2rem;
+    width: 100vw;
+    height: 100vh;
 }
 .article{
     display: flex;
