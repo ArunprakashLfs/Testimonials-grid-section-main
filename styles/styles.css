@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+:root{
+    --clr-violet: hsl(263, 55%, 52%);
+    --clr-dark-grey-blue: hsl(217, 19%, 35%);
+    --clr-black-blue: hsl(219, 29%, 14%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-light-grey: hsl(0, 0%, 81%);
+    --clr-grey-blue: hsl(210, 46%, 95%);
+}
 *{
     margin: 0;
     padding: 0;
@@ -9,4 +17,25 @@ html{
 }
 body{
     font-family: 'Barlow Semi Condensed', sans-serif;
+    display: flex;
+    align-items: center;
+}
+.main{
+}
+.article{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+.article-one{
+    background-color: var(--clr-violet);
+    color: var(--clr-grey-blue);
+}
+.article-two{
+    background-color: var(--clr-dark-grey-blue);
+    color: var(--clr-light-grey);
+}
+.article-four{
+    background-color: var(--clr-black-blue);
+    color: var(--clr-grey-blue);
 }
