@@ -19,18 +19,20 @@ body{
     font-family: 'Barlow Semi Condensed', sans-serif;
     background-color: var(--clr-grey-blue);
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 }
 .main{
     width: 24rem;
-    margin: 0 auto;
-    gap: 2rem;
+    margin:  auto;
+    gap: 1rem;
     display: grid;
 
 }
 .article{
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 15px;
     display: flex;
     align-items: flex-start;
@@ -91,11 +93,9 @@ img{
     background-color: var(--clr-white);
 }
 @media only screen and (min-width: 1000px){
-    .body{
-        height: auto;
-    }
+    
     .main{
-        width: 72rem;
+        width: 78rem;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
